@@ -3,48 +3,148 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Free Online Calculator Guide</title>
-  <meta name="description" content="A practical guide to using free online calculator tools for percentages, discounts, mortgage planning, and everyday household math.">
+  <title>Free Online Calculator for Everyday Math Guide</title>
+  <meta name="description" content="A visual guide to using a free online calculator for everyday math, percentages, discounts, mortgage planning, shopping totals, budgets, and household planning.">
   <link rel="canonical" href="https://abhinandan1106.github.io/daily-print-resource-guides/free-online-calculator/">
   <style>
-    body{font-family:Arial,sans-serif;line-height:1.65;margin:0;color:#182233;background:#f7f9fb}
-    main{max-width:850px;margin:0 auto;padding:48px 20px}
-    article{background:#fff;border:1px solid #dce4ed;border-radius:8px;padding:30px}
-    h1{font-size:34px;line-height:1.15;margin:0 0 16px}
-    h2{font-size:22px;margin-top:32px}
-    a{color:#0b63ce;font-weight:700}
-    ul{padding-left:24px}
-    .resource-list{display:grid;gap:10px;margin:20px 0}
-    .resource-list a{display:block;border:1px solid #dce4ed;border-radius:6px;padding:11px 13px;background:#fbfdff;text-decoration:none}
-    .small{color:#526174;font-size:14px;margin-top:28px}
+    :root{--ink:#182233;--muted:#566579;--line:#d9e3ee;--paper:#fff;--soft:#f4f8fb;--navy:#17385f;--blue:#0b63ce;--gold:#d4a843;--green:#5b8c5a;--shadow:0 18px 50px rgba(18,32,51,.12)}
+    *{box-sizing:border-box}
+    body{font-family:Arial,sans-serif;line-height:1.65;margin:0;color:var(--ink);background:#f7f9fb}
+    a{color:var(--blue);font-weight:700}
+    .topbar{border-bottom:1px solid var(--line);background:#fff}
+    .topbar-inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-family:Georgia,serif;font-weight:700;color:var(--navy);text-decoration:none}
+    .topbar nav{display:flex;gap:14px;flex-wrap:wrap}
+    .topbar nav a{font-size:14px;color:var(--muted);text-decoration:none}
+    .hero{background:#17385f;color:#fff}
+    .hero-inner{max-width:1080px;margin:0 auto;padding:54px 20px 46px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:32px;align-items:center}
+    .eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:700;color:#d9e7f7;margin:0 0 12px}
+    h1{font-size:43px;line-height:1.08;margin:0 0 16px}
+    .hero p{font-size:18px;color:#e8f1fa;margin:0 0 24px;max-width:680px}
+    .button-row{display:flex;gap:12px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:6px;text-decoration:none;background:#fff;color:var(--navy)}
+    .button.secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
+    .preview{background:#fff;border-radius:8px;padding:22px;box-shadow:var(--shadow)}
+    .preview img{display:block;width:100%;height:auto}
+    main{max-width:1080px;margin:0 auto;padding:42px 20px 58px}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+    article,.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:26px;box-shadow:0 8px 28px rgba(18,32,51,.05)}
+    h2{font-size:25px;line-height:1.2;margin:0 0 14px}
+    h3{font-size:18px;line-height:1.25;margin:0 0 8px}
+    p{margin:0 0 18px}
+    ul,ol{padding-left:24px;margin:0 0 22px}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}
+    .card{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:16px}
+    .card strong{display:block;color:var(--navy);font-size:17px;margin-bottom:4px}
+    .resource-list{display:grid;gap:12px;margin-top:18px}
+    .resource-list a{display:block;border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:#fbfdff;text-decoration:none;color:var(--ink)}
+    .resource-list span{display:block;color:var(--muted);font-size:14px;font-weight:400;margin-top:3px}
+    .note{border-left:4px solid var(--gold);background:#fffaf0;padding:15px 16px;margin:22px 0;color:#4b3b12}
+    .small{color:var(--muted);font-size:14px;margin-top:24px}
+    footer{border-top:1px solid var(--line);background:#fff;color:var(--muted)}
+    footer div{max-width:1080px;margin:0 auto;padding:22px 20px;font-size:14px}
+    @media (max-width:800px){
+      .hero-inner,.grid,.cards{grid-template-columns:1fr}
+      h1{font-size:34px}
+      .topbar-inner{align-items:flex-start;flex-direction:column}
+    }
   </style>
 </head>
 <body>
-  <main>
-    <article>
-      <h1>Free Online Calculator Guide</h1>
-      <p>A free online calculator is useful for quick arithmetic, household planning, discount checks, percentage changes, budget totals, and mortgage estimates. The best calculator page is simple enough for repeated use and connected to the specific planning task.</p>
-      <p>The Daily Print Project offers a <a href="https://www.thedailyprintproject.com/calculators/calculator">Free Online Calculator</a> for everyday math plus focused tools for mortgage, percentage, and discount calculations.</p>
-      <h2>Common calculator tasks</h2>
-      <ul>
-        <li>Total shopping costs before checkout.</li>
-        <li>Check sale discounts and percentage changes.</li>
-        <li>Estimate monthly mortgage payments.</li>
-        <li>Compare budget totals against a printed monthly planner.</li>
-        <li>Double-check household numbers before printing a list or worksheet.</li>
-      </ul>
-      <h2>Related calculator resources</h2>
-      <div class="resource-list">
-        <a href="https://www.thedailyprintproject.com/calculators/calculator">Free Online Calculator</a>
-        <a href="https://www.thedailyprintproject.com/calculators/mortgage-calculator">Mortgage Calculator</a>
-        <a href="https://www.thedailyprintproject.com/calculators/percentage-calculator">Percentage Calculator</a>
-        <a href="https://www.thedailyprintproject.com/calculators/discount-calculator">Discount Calculator</a>
-        <a href="https://www.thedailyprintproject.com/planners/monthly-budget-planner">Monthly Budget Planner Printable</a>
-        <a href="https://www.thedailyprintproject.com/household/shopping-list">Printable Shopping List Template</a>
-        <a href="https://www.thedailyprintproject.com/household/grocery-list">Printable Grocery List by Category</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../">Daily Print Resource Guides</a>
+      <nav aria-label="Resource navigation">
+        <a href="../percentage-discount-calculator/">Percent</a>
+        <a href="../mortgage-calculator/">Mortgage</a>
+        <a href="../everyday-calculators-household-lists/">Household</a>
+        <a href="../">All Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">Everyday calculator guide</p>
+        <h1>Free Online Calculator for Everyday Math</h1>
+        <p>A general calculator is the starting point for quick arithmetic, shopping totals, budget checks, percentages, decimals, and household planning numbers.</p>
+        <div class="button-row">
+          <a class="button" href="https://www.thedailyprintproject.com/calculators/calculator">Open free online calculator</a>
+          <a class="button secondary" href="https://www.thedailyprintproject.com/calculators/percentage-calculator">Open percentage calculator</a>
+        </div>
       </div>
-      <p class="small">This guide is a public companion resource for The Daily Print Project.</p>
-    </article>
+      <div class="preview" aria-label="Calculator preview illustration">
+        <img src="../assets/hub-calculator.svg" alt="Free online calculator preview">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="grid">
+      <article>
+        <h2>What to use a free online calculator for</h2>
+        <p>The Daily Print Project has a <a href="https://www.thedailyprintproject.com/calculators/calculator">free online calculator for everyday math</a>. It works for addition, subtraction, multiplication, division, decimals, quick totals, and basic percentage checks when you need an answer fast.</p>
+        <p>When the task has a dedicated workflow, use a focused calculator page: percentage calculator for percent change, discount calculator for sale prices, mortgage calculator for monthly home payment estimates, and age calculator for exact date differences.</p>
+
+        <div class="cards" aria-label="Calculator use cases">
+          <div class="card">
+            <strong>Shopping totals</strong>
+            Add prices, compare purchases, and check estimated tax.
+          </div>
+          <div class="card">
+            <strong>Budget math</strong>
+            Compare income, expenses, savings, and monthly leftovers.
+          </div>
+          <div class="card">
+            <strong>Percentage checks</strong>
+            Use quick percent math or open the focused percentage calculator.
+          </div>
+          <div class="card">
+            <strong>Planning estimates</strong>
+            Use calculator results beside printable planners and household lists.
+          </div>
+        </div>
+
+        <h2>Choose the right calculator</h2>
+        <ol>
+          <li>Use the general calculator for fast arithmetic and everyday math.</li>
+          <li>Use the percentage calculator for percent of a number and percent change.</li>
+          <li>Use the discount calculator for sale prices, coupons, and tax estimates.</li>
+          <li>Use the mortgage calculator for principal, interest, taxes, insurance, PMI, and HOA.</li>
+          <li>Use printables when the final number belongs in a budget, shopping list, or planner.</li>
+        </ol>
+
+        <div class="note">
+          Broad calculator searches are competitive. A useful calculator hub should connect simple math to focused calculators and practical planning pages.
+        </div>
+
+        <h2>Related calculator and planning resources</h2>
+        <div class="resource-list">
+          <a href="https://www.thedailyprintproject.com/calculators/calculator">Free online calculator for everyday math<span>Main calculator hub for quick arithmetic.</span></a>
+          <a href="https://www.thedailyprintproject.com/calculators/percentage-calculator">Percentage calculator<span>Percent of a number, part percent, and percent change.</span></a>
+          <a href="https://www.thedailyprintproject.com/calculators/discount-calculator">Discount calculator<span>Sale price, coupon savings, and estimated tax.</span></a>
+          <a href="https://www.thedailyprintproject.com/calculators/mortgage-calculator">Mortgage calculator<span>Monthly home payment estimates with taxes and insurance.</span></a>
+          <a href="https://www.thedailyprintproject.com/calculators/age-calculator">Age calculator<span>Exact age in years, months, days, and total days.</span></a>
+          <a href="https://www.thedailyprintproject.com/planners/monthly-budget-planner">Monthly budget planner printable<span>Write down the calculated numbers and compare monthly totals.</span></a>
+        </div>
+      </article>
+
+      <aside class="panel">
+        <h2>Household math helpers</h2>
+        <div class="resource-list">
+          <a href="https://www.thedailyprintproject.com/household/shopping-list">Printable shopping list<span>Plan purchases before calculating totals.</span></a>
+          <a href="https://www.thedailyprintproject.com/household/grocery-list">Printable grocery list<span>Use grocery categories for weekly planning.</span></a>
+          <a href="https://www.thedailyprintproject.com/downloads/printable-shopping-list.pdf">Shopping list PDF<span>Printable checklist for errands and household purchases.</span></a>
+          <a href="https://www.thedailyprintproject.com/downloads/grocery-list-by-category.pdf">Grocery list PDF<span>Printable grocery list by category.</span></a>
+        </div>
+        <p class="small">This guide is a public companion resource for The Daily Print Project.</p>
+      </aside>
+    </div>
   </main>
+
+  <footer>
+    <div>Daily Print Resource Guides - independent resource pages for useful printables and calculators.</div>
+  </footer>
 </body>
 </html>
