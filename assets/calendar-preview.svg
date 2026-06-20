@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#F0FAF0"/>
+  <!-- Calendar body -->
+  <g transform="translate(270, 60)">
+    <!-- Calendar frame -->
+    <rect x="0" y="0" width="260" height="280" fill="white" stroke="#5B8C5A" stroke-width="2" rx="8"/>
+    <!-- Header -->
+    <rect x="0" y="0" width="260" height="50" fill="#5B8C5A" rx="8"/>
+    <rect x="0" y="30" width="260" height="20" fill="#5B8C5A"/>
+    <text x="130" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="white" font-weight="bold">March 2026</text>
+    <!-- Binding rings -->
+    <circle cx="80" cy="0" r="8" fill="none" stroke="#888" stroke-width="2"/>
+    <circle cx="180" cy="0" r="8" fill="none" stroke="#888" stroke-width="2"/>
+    <!-- Day headers -->
+    <g font-family="Georgia, serif" font-size="11" fill="#888" text-anchor="middle">
+      <text x="30" y="72">S</text><text x="67" y="72">M</text><text x="104" y="72">T</text>
+      <text x="141" y="72">W</text><text x="178" y="72">T</text><text x="215" y="72">F</text><text x="252" y="72">S</text>
+    </g>
+    <!-- Date numbers -->
+    <g font-family="Georgia, serif" font-size="14" fill="#555" text-anchor="middle">
+      <text x="30" y="100">1</text><text x="67" y="100">2</text><text x="104" y="100">3</text>
+      <text x="141" y="100">4</text><text x="178" y="100">5</text><text x="215" y="100">6</text><text x="252" y="100">7</text>
+      <text x="30" y="130">8</text><text x="67" y="130">9</text><text x="104" y="130">10</text>
+      <text x="141" y="130">11</text><text x="178" y="130">12</text><text x="215" y="130">13</text><text x="252" y="130">14</text>
+      <text x="30" y="160">15</text><text x="67" y="160">16</text><text x="104" y="160">17</text>
+      <text x="141" y="160">18</text><text x="178" y="160">19</text><text x="215" y="160">20</text><text x="252" y="160">21</text>
+      <text x="30" y="190">22</text><text x="67" y="190">23</text><text x="104" y="190">24</text>
+      <text x="141" y="190">25</text><text x="178" y="190">26</text><text x="215" y="190">27</text><text x="252" y="190">28</text>
+      <text x="30" y="220">29</text><text x="67" y="220">30</text><text x="104" y="220">31</text>
+    </g>
+    <!-- Marked dates -->
+    <circle cx="104" cy="95" r="14" fill="#5B8C5A" opacity="0.2"/>
+    <circle cx="178" cy="155" r="14" fill="#D4A843" opacity="0.3"/>
+    <circle cx="67" cy="185" r="14" fill="#C67B5C" opacity="0.25"/>
+    <circle cx="252" cy="125" r="14" fill="#4A7FB5" opacity="0.2"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#5B8C5A" font-weight="bold">Monthly Calendar</text>
+  <text x="400" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#888">Plan your month at a glance</text>
+</svg>

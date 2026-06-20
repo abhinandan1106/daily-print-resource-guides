@@ -4,77 +4,320 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Daily Print Project Resource Guides</title>
-  <meta name="description" content="Companion resource guides for The Daily Print Project printable planners, household templates, calculators, and puzzle pages.">
+  <meta name="description" content="Visual companion guides for The Daily Print Project printables, planners, calculators, household templates, calendars, and puzzle pages.">
   <link rel="canonical" href="https://abhinandan1106.github.io/daily-print-resource-guides/">
+  <meta property="og:title" content="The Daily Print Project Resource Guides">
+  <meta property="og:description" content="Browse companion guides for printable planners, household templates, calculators, calendars, and puzzle pages.">
   <style>
-    body{font-family:Arial,sans-serif;line-height:1.6;margin:0;color:#172033;background:#f7f9fb}
-    main{max-width:860px;margin:0 auto;padding:48px 20px}
-    .panel{background:#fff;border:1px solid #dce4ed;border-radius:8px;padding:28px}
-    h1{font-size:34px;line-height:1.15;margin:0 0 16px}
-    h2{font-size:22px;margin-top:32px}
-    a{color:#0b63ce}
-    .links{display:grid;gap:12px;margin:24px 0}
-    .links a{display:block;border:1px solid #dce4ed;border-radius:6px;padding:12px 14px;background:#fbfdff;text-decoration:none;font-weight:700}
-    .small{color:#526174;font-size:14px;margin-top:28px}
+    :root{
+      --ink:#122033;
+      --muted:#5c697a;
+      --paper:#ffffff;
+      --line:#dce4ed;
+      --mist:#f4f7fb;
+      --navy:#10233f;
+      --blue:#0b63ce;
+      --green:#17735b;
+      --gold:#b7791f;
+      --rose:#9f4661;
+      --shadow:0 18px 50px rgba(18,32,51,.12);
+    }
+    *{box-sizing:border-box}
+    body{font-family:Arial,sans-serif;line-height:1.6;margin:0;color:var(--ink);background:var(--mist)}
+    img{display:block;max-width:100%;height:auto}
+    a{color:var(--blue)}
+    .site-header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+    .header-inner{max-width:1180px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-weight:800;color:var(--ink);text-decoration:none;font-size:18px}
+    .top-nav{display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-end}
+    .top-nav a{font-size:14px;color:var(--muted);text-decoration:none;font-weight:700}
+    .top-nav a:hover{color:var(--blue)}
+    .hero{background:var(--navy);color:#fff;overflow:hidden}
+    .hero-inner{max-width:1180px;margin:0 auto;padding:62px 22px 46px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:36px;align-items:center}
+    .eyebrow{color:#a7d7ff;font-weight:800;margin:0 0 10px;text-transform:uppercase;font-size:13px}
+    h1{font-size:46px;line-height:1.08;margin:0 0 18px}
+    .hero p{font-size:18px;max-width:680px;margin:0 0 24px;color:#d9e7f7}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:800}
+    .button.primary{background:#fff;color:var(--navy)}
+    .button.secondary{border:1px solid rgba(255,255,255,.45);color:#fff}
+    .hero-gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .visual-tile{background:#fff;border-radius:8px;box-shadow:var(--shadow);padding:16px;color:var(--ink);min-height:156px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid rgba(255,255,255,.28)}
+    .visual-tile img{height:74px;object-fit:contain;margin-left:auto;margin-bottom:10px}
+    .visual-tile span{font-weight:800;font-size:15px}
+    .visual-tile strong{display:block;font-size:22px;line-height:1.15}
+    .visual-tile:nth-child(2){transform:translateY(24px)}
+    .visual-tile:nth-child(3){transform:translateY(-10px)}
+    main{max-width:1180px;margin:0 auto;padding:34px 22px 58px}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-58px;position:relative;z-index:2}
+    .stat{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px;box-shadow:0 10px 30px rgba(18,32,51,.08)}
+    .stat strong{display:block;font-size:25px}
+    .stat span{display:block;color:var(--muted);font-size:14px}
+    section{margin-top:44px}
+    .section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:18px}
+    h2{font-size:28px;line-height:1.2;margin:0}
+    .section-heading p{margin:0;color:var(--muted);max-width:610px}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 8px 28px rgba(18,32,51,.06);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+    .card:hover{transform:translateY(-3px);box-shadow:0 16px 42px rgba(18,32,51,.12);border-color:#b7c9dc}
+    .card-media{height:150px;background:#eef5fb;display:flex;align-items:center;justify-content:center;padding:18px;border-bottom:1px solid var(--line)}
+    .card-media img{max-height:112px;object-fit:contain}
+    .card-body{padding:18px}
+    .tag{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;margin-bottom:9px;color:var(--green)}
+    .tag.gold{color:var(--gold)}
+    .tag.rose{color:var(--rose)}
+    .tag.blue{color:var(--blue)}
+    h3{font-size:20px;line-height:1.25;margin:0 0 8px}
+    .card p{margin:0;color:var(--muted)}
+    .library-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .guide-link{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:15px;text-decoration:none;color:var(--ink);min-height:126px;display:flex;flex-direction:column;gap:8px}
+    .guide-link:hover{border-color:#b7c9dc;box-shadow:0 10px 26px rgba(18,32,51,.08)}
+    .guide-link span{font-size:12px;font-weight:800;text-transform:uppercase;color:var(--muted)}
+    .guide-link strong{font-size:17px;line-height:1.25}
+    .guide-link small{font-size:13px;color:var(--muted);line-height:1.45}
+    .quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .quick-group{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px}
+    .quick-group h3{font-size:18px;margin-bottom:12px}
+    .quick-group ul{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+    .quick-group a{text-decoration:none;font-weight:700;color:var(--blue)}
+    .quick-group a:hover{text-decoration:underline}
+    .about{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:26px;display:grid;grid-template-columns:1fr 220px;gap:24px;align-items:center}
+    .about p{margin:10px 0 0;color:var(--muted)}
+    .about img{max-height:170px;margin-left:auto}
+    .footer-note{font-size:14px;color:var(--muted);margin:26px 0 0;text-align:center}
+    @media (max-width:980px){
+      .hero-inner{grid-template-columns:1fr;padding-top:44px}
+      h1{font-size:38px}
+      .stats,.feature-grid,.quick-grid{grid-template-columns:repeat(2,1fr)}
+      .library-grid{grid-template-columns:repeat(3,1fr)}
+      .visual-tile:nth-child(2),.visual-tile:nth-child(3){transform:none}
+    }
+    @media (max-width:680px){
+      .header-inner{align-items:flex-start;flex-direction:column}
+      .top-nav{justify-content:flex-start}
+      h1{font-size:32px}
+      .hero p{font-size:16px}
+      .hero-gallery,.stats,.feature-grid,.library-grid,.quick-grid,.about{grid-template-columns:1fr}
+      .stats{margin-top:-34px}
+      .about img{margin:0;max-height:130px}
+    }
   </style>
 </head>
 <body>
-  <main>
-    <section class="panel">
-      <h1>The Daily Print Project Resource Guides</h1>
-      <p>This public companion site collects practical guides for printable planners, household organization templates, calculators, and puzzle resources from The Daily Print Project.</p>
-      <p>Each guide links to the original printable or tool page so readers can quickly find the resource that matches the task they are planning.</p>
-      <div class="links">
-        <a href="monthly-calendar-printables/">Monthly Calendar Printable Guide</a>
-        <a href="everyday-calculators-household-lists/">Everyday Calculators and Household Lists Guide</a>
-        <a href="large-print-sudoku-puzzles/">Large Print Sudoku Puzzles Guide</a>
-        <a href="cryptogram-number-search/">Cryptogram and Number Search Puzzle Guide</a>
-        <a href="sudoku-difficulty-printables/">Sudoku Difficulty Printable Guide</a>
-        <a href="printable-habit-tracker/">Printable Habit Tracker Guide</a>
-        <a href="weekly-daily-planner/">Weekly Planner and Daily To-Do List Guide</a>
-        <a href="percentage-discount-calculator/">Percentage and Discount Calculator Guide</a>
-        <a href="cleaning-pantry-organizer/">Cleaning Schedule and Pantry Inventory Guide</a>
-        <a href="medication-log/">Printable Medication Log Guide</a>
-        <a href="emergency-contact-list/">Printable Emergency Contact List Guide</a>
-        <a href="weekly-meal-planner-grocery-list/">Weekly Meal Planner with Grocery List Guide</a>
-        <a href="printable-word-search/">Printable Word Search Puzzle Guide</a>
-        <a href="printable-crossword-puzzles/">Printable Crossword Puzzle Guide</a>
-        <a href="printable-calendar-2026/">Printable Calendar 2026 Guide</a>
-        <a href="printable-grocery-shopping-list/">Printable Grocery and Shopping List Guide</a>
-        <a href="free-online-calculator/">Free Online Calculator Guide</a>
-        <a href="mortgage-calculator/">Mortgage Calculator Planning Guide</a>
-        <a href="password-manager-template/">Password Manager Template Guide</a>
-        <a href="sudoku-printable-puzzles/">Printable Sudoku Puzzle Guide</a>
-        <a href="https://www.thedailyprintproject.com/planners/weekly-meal-planner">Weekly Meal Planner Printable</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/word-search">Printable Word Search Puzzle</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/daily-crossword">Printable Crossword Puzzle</a>
-        <a href="https://www.thedailyprintproject.com/calendars/2026-yearly">2026 Printable Calendar</a>
-        <a href="https://www.thedailyprintproject.com/calendars/june-2026">June 2026 Printable Calendar</a>
-        <a href="https://www.thedailyprintproject.com/calendars/december-2026">December 2026 Printable Calendar</a>
-        <a href="https://www.thedailyprintproject.com/household/grocery-list">Printable Grocery List</a>
-        <a href="https://www.thedailyprintproject.com/household/shopping-list">Printable Shopping List</a>
-        <a href="https://www.thedailyprintproject.com/calculators/calculator">Free Online Calculator</a>
-        <a href="https://www.thedailyprintproject.com/calculators/mortgage-calculator">Mortgage Calculator</a>
-        <a href="https://www.thedailyprintproject.com/household/emergency-contacts">Printable Emergency Contact List</a>
-        <a href="https://www.thedailyprintproject.com/household/medication-log">Printable Medication Log</a>
-        <a href="https://www.thedailyprintproject.com/household/cleaning-schedule">Printable Cleaning Schedule</a>
-        <a href="https://www.thedailyprintproject.com/household/pantry-inventory">Printable Pantry Inventory</a>
-        <a href="https://www.thedailyprintproject.com/planners/weekly-planner">Printable Weekly Planner</a>
-        <a href="https://www.thedailyprintproject.com/planners/daily-to-do-list">Printable Daily To-Do List</a>
-        <a href="https://www.thedailyprintproject.com/planners/habit-tracker">Printable Habit Tracker</a>
-        <a href="https://www.thedailyprintproject.com/household/password-tracker">Printable Password Manager Template</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/sudoku">Printable Sudoku Puzzle</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/sudoku-easy">Easy Printable Sudoku</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/sudoku-medium">Medium Printable Sudoku</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/sudoku-hard">Hard Printable Sudoku</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/sudoku-large-print">Large Print Sudoku</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/cryptogram">Printable Cryptogram Puzzle</a>
-        <a href="https://www.thedailyprintproject.com/puzzles/number-search">Printable Number Search Puzzle</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="brand">The Daily Print Project Guides</a>
+      <nav class="top-nav" aria-label="Page navigation">
+        <a href="#featured">Featured</a>
+        <a href="#guides">Guide Library</a>
+        <a href="#quick-links">Original Tools</a>
+        <a href="https://www.thedailyprintproject.com/">Main Site</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">Companion Resource Library</p>
+        <h1>Printable planning guides, calculators, puzzles, and household tools in one place.</h1>
+        <p>Browse visual guides for The Daily Print Project resources, then open the original printable page or browser tool when you are ready to print, calculate, or plan.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#guides">Browse guide library</a>
+          <a class="button secondary" href="https://www.thedailyprintproject.com/all-printables">View all printables</a>
+        </div>
       </div>
-      <h2>About the resource guides</h2>
-      <p>The Daily Print Project focuses on simple printable pages and browser tools for everyday planning: home lists, budget sheets, password logs, calculators, calendars, and sudoku puzzles.</p>
-      <p class="small">Published as a public companion resource for The Daily Print Project.</p>
+      <div class="hero-gallery" aria-label="Featured Daily Print resources">
+        <div class="visual-tile">
+          <img src="assets/hub-sudoku.svg" alt="Sudoku puzzle preview">
+          <span>Puzzles</span>
+          <strong>Large print sudoku</strong>
+        </div>
+        <div class="visual-tile">
+          <img src="assets/hub-calculator.svg" alt="Calculator preview">
+          <span>Calculators</span>
+          <strong>Everyday math tools</strong>
+        </div>
+        <div class="visual-tile">
+          <img src="assets/calendar-preview.svg" alt="Calendar preview">
+          <span>Calendars</span>
+          <strong>2026 printable pages</strong>
+        </div>
+        <div class="visual-tile">
+          <img src="assets/hub-grocery.svg" alt="Grocery list preview">
+          <span>Household</span>
+          <strong>Lists and organizers</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="stats" aria-label="Resource guide stats">
+      <div class="stat"><strong>22+</strong><span>public companion guides</span></div>
+      <div class="stat"><strong>40+</strong><span>printable and tool links</span></div>
+      <div class="stat"><strong>2026</strong><span>calendar and planner focus</span></div>
+      <div class="stat"><strong>Free</strong><span>no signup required on the main site</span></div>
+    </div>
+
+    <section id="featured">
+      <div class="section-heading">
+        <div>
+          <h2>Featured Resource Paths</h2>
+          <p>Start with the highest-priority guide clusters for calculators, sudoku, calendars, household lists, and offline account organization.</p>
+        </div>
+      </div>
+      <div class="feature-grid">
+        <a class="card" href="everyday-calculators-household-lists/">
+          <div class="card-media"><img src="assets/hub-calculator.svg" alt="Calculator illustration"></div>
+          <div class="card-body">
+            <span class="tag blue">Calculators</span>
+            <h3>Everyday Calculators and Household Lists</h3>
+            <p>Calculator, mortgage calculator, grocery list, shopping list, and password manager template resources.</p>
+          </div>
+        </a>
+        <a class="card" href="large-print-sudoku-puzzles/">
+          <div class="card-media"><img src="assets/hub-sudoku.svg" alt="Sudoku puzzle illustration"></div>
+          <div class="card-body">
+            <span class="tag rose">Puzzles</span>
+            <h3>Large Print Sudoku Puzzles</h3>
+            <p>Easy-to-read sudoku resources for daily solving, seniors, classrooms, and printable puzzle packs.</p>
+          </div>
+        </a>
+        <a class="card" href="monthly-calendar-printables/">
+          <div class="card-media"><img src="assets/calendar-preview.svg" alt="Printable calendar illustration"></div>
+          <div class="card-body">
+            <span class="tag gold">Calendars</span>
+            <h3>Monthly Calendar Printables</h3>
+            <p>Standard and large-print 2026 calendar pages for home, school, office, and family planning.</p>
+          </div>
+        </a>
+        <a class="card" href="printable-grocery-shopping-list/">
+          <div class="card-media"><img src="assets/hub-grocery.svg" alt="Grocery list illustration"></div>
+          <div class="card-body">
+            <span class="tag green">Household</span>
+            <h3>Grocery and Shopping Lists</h3>
+            <p>Separate grocery and general shopping templates for weekly errands, meal prep, and budgeting.</p>
+          </div>
+        </a>
+        <a class="card" href="mortgage-calculator/">
+          <div class="card-media"><img src="assets/hub-mortgage-calculator.svg" alt="Mortgage calculator illustration"></div>
+          <div class="card-body">
+            <span class="tag blue">Planning</span>
+            <h3>Mortgage Calculator Planning</h3>
+            <p>Monthly payment estimates with related budget, shopping, and household planning resources.</p>
+          </div>
+        </a>
+        <a class="card" href="password-manager-template/">
+          <div class="card-media"><img src="assets/hub-household.svg" alt="Household organizer illustration"></div>
+          <div class="card-body">
+            <span class="tag green">Organizer</span>
+            <h3>Password Manager Template</h3>
+            <p>Offline account inventory, password hints, recovery notes, and household paperwork planning.</p>
+          </div>
+        </a>
+      </div>
     </section>
+
+    <section id="guides">
+      <div class="section-heading">
+        <div>
+          <h2>Guide Library</h2>
+          <p>Each guide has contextual links to the matching printable, calculator, or puzzle page on The Daily Print Project.</p>
+        </div>
+      </div>
+      <div class="library-grid">
+        <a class="guide-link" href="monthly-calendar-printables/"><span>Calendar</span><strong>Monthly Calendar Printable Guide</strong><small>2026 monthly and large-print calendar pages.</small></a>
+        <a class="guide-link" href="everyday-calculators-household-lists/"><span>Calculators</span><strong>Everyday Calculators and Household Lists</strong><small>Calculator, mortgage, grocery, shopping, and password tracker.</small></a>
+        <a class="guide-link" href="large-print-sudoku-puzzles/"><span>Puzzles</span><strong>Large Print Sudoku Puzzles Guide</strong><small>Large-print sudoku and related difficulty pages.</small></a>
+        <a class="guide-link" href="cryptogram-number-search/"><span>Puzzles</span><strong>Cryptogram and Number Search Guide</strong><small>Word games, number search, and printable puzzle links.</small></a>
+        <a class="guide-link" href="sudoku-difficulty-printables/"><span>Puzzles</span><strong>Sudoku Difficulty Printable Guide</strong><small>Easy, medium, hard, and large-print sudoku pages.</small></a>
+        <a class="guide-link" href="printable-habit-tracker/"><span>Planner</span><strong>Printable Habit Tracker Guide</strong><small>Habit tracking with daily and weekly planner support.</small></a>
+        <a class="guide-link" href="weekly-daily-planner/"><span>Planner</span><strong>Weekly Planner and Daily To-Do Guide</strong><small>Daily task pages and weekly planning systems.</small></a>
+        <a class="guide-link" href="percentage-discount-calculator/"><span>Calculator</span><strong>Percentage and Discount Calculator Guide</strong><small>Sale math, shopping totals, and budget planning.</small></a>
+        <a class="guide-link" href="cleaning-pantry-organizer/"><span>Household</span><strong>Cleaning and Pantry Organizer Guide</strong><small>Cleaning schedules, pantry inventory, and grocery planning.</small></a>
+        <a class="guide-link" href="medication-log/"><span>Household</span><strong>Printable Medication Log Guide</strong><small>Medication tracking and emergency contact planning.</small></a>
+        <a class="guide-link" href="emergency-contact-list/"><span>Household</span><strong>Emergency Contact List Guide</strong><small>Important numbers, home paperwork, and safety planning.</small></a>
+        <a class="guide-link" href="weekly-meal-planner-grocery-list/"><span>Planner</span><strong>Weekly Meal Planner With Grocery List</strong><small>Meal planning and grocery list workflow.</small></a>
+        <a class="guide-link" href="printable-word-search/"><span>Puzzles</span><strong>Printable Word Search Puzzle Guide</strong><small>Word search pages and large-print puzzle options.</small></a>
+        <a class="guide-link" href="printable-crossword-puzzles/"><span>Puzzles</span><strong>Printable Crossword Puzzle Guide</strong><small>Daily crossword and large-print crossword pages.</small></a>
+        <a class="guide-link" href="printable-calendar-2026/"><span>Calendar</span><strong>Printable Calendar 2026 Guide</strong><small>Yearly calendar and monthly planning pages.</small></a>
+        <a class="guide-link" href="printable-grocery-shopping-list/"><span>Household</span><strong>Printable Grocery and Shopping List Guide</strong><small>Food shopping, errands, and household supply lists.</small></a>
+        <a class="guide-link" href="free-online-calculator/"><span>Calculator</span><strong>Free Online Calculator Guide</strong><small>Everyday arithmetic, percentage, and shopping math.</small></a>
+        <a class="guide-link" href="mortgage-calculator/"><span>Calculator</span><strong>Mortgage Calculator Planning Guide</strong><small>Home payment estimates and budget links.</small></a>
+        <a class="guide-link" href="password-manager-template/"><span>Household</span><strong>Password Manager Template Guide</strong><small>Offline account tracking and recovery note organization.</small></a>
+        <a class="guide-link" href="sudoku-printable-puzzles/"><span>Puzzles</span><strong>Printable Sudoku Puzzle Guide</strong><small>Sudoku hub, large-print puzzles, and printable PDF pack.</small></a>
+      </div>
+    </section>
+
+    <section id="quick-links">
+      <div class="section-heading">
+        <div>
+          <h2>Open the Original Tools and Printables</h2>
+          <p>Direct links to The Daily Print Project pages for printing, calculating, and planning.</p>
+        </div>
+      </div>
+      <div class="quick-grid">
+        <div class="quick-group">
+          <h3>Calendars and Planners</h3>
+          <ul>
+            <li><a href="https://www.thedailyprintproject.com/calendars/2026-yearly">2026 Printable Calendar</a></li>
+            <li><a href="https://www.thedailyprintproject.com/calendars/june-2026">June 2026 Printable Calendar</a></li>
+            <li><a href="https://www.thedailyprintproject.com/calendars/december-2026">December 2026 Printable Calendar</a></li>
+            <li><a href="https://www.thedailyprintproject.com/planners/weekly-planner">Printable Weekly Planner</a></li>
+            <li><a href="https://www.thedailyprintproject.com/planners/daily-to-do-list">Printable Daily To-Do List</a></li>
+            <li><a href="https://www.thedailyprintproject.com/planners/habit-tracker">Printable Habit Tracker</a></li>
+            <li><a href="https://www.thedailyprintproject.com/planners/weekly-meal-planner">Weekly Meal Planner Printable</a></li>
+          </ul>
+        </div>
+        <div class="quick-group">
+          <h3>Household Templates</h3>
+          <ul>
+            <li><a href="https://www.thedailyprintproject.com/household/grocery-list">Printable Grocery List</a></li>
+            <li><a href="https://www.thedailyprintproject.com/household/shopping-list">Printable Shopping List</a></li>
+            <li><a href="https://www.thedailyprintproject.com/household/password-tracker">Printable Password Manager Template</a></li>
+            <li><a href="https://www.thedailyprintproject.com/household/emergency-contacts">Printable Emergency Contact List</a></li>
+            <li><a href="https://www.thedailyprintproject.com/household/medication-log">Printable Medication Log</a></li>
+            <li><a href="https://www.thedailyprintproject.com/household/cleaning-schedule">Printable Cleaning Schedule</a></li>
+            <li><a href="https://www.thedailyprintproject.com/household/pantry-inventory">Printable Pantry Inventory</a></li>
+          </ul>
+        </div>
+        <div class="quick-group">
+          <h3>Calculators</h3>
+          <ul>
+            <li><a href="https://www.thedailyprintproject.com/calculators/calculator">Free Online Calculator</a></li>
+            <li><a href="https://www.thedailyprintproject.com/calculators/mortgage-calculator">Mortgage Calculator</a></li>
+            <li><a href="https://www.thedailyprintproject.com/calculators/percentage-calculator">Percentage Calculator</a></li>
+            <li><a href="https://www.thedailyprintproject.com/calculators/discount-calculator">Discount Calculator</a></li>
+          </ul>
+        </div>
+        <div class="quick-group">
+          <h3>Puzzles</h3>
+          <ul>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/sudoku">Printable Sudoku Puzzle</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/sudoku-easy">Easy Printable Sudoku</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/sudoku-medium">Medium Printable Sudoku</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/sudoku-hard">Hard Printable Sudoku</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/sudoku-large-print">Large Print Sudoku</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/word-search">Printable Word Search Puzzle</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/daily-crossword">Printable Crossword Puzzle</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/cryptogram">Printable Cryptogram Puzzle</a></li>
+            <li><a href="https://www.thedailyprintproject.com/puzzles/number-search">Printable Number Search Puzzle</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div>
+        <h2>About the Resource Guides</h2>
+        <p>The Daily Print Project focuses on practical printable pages and browser tools for everyday planning: home lists, budget sheets, password logs, calculators, calendars, and sudoku puzzles.</p>
+        <p>This companion site adds topic guides and clean pathways into the original pages so readers can find the right printable faster.</p>
+      </div>
+      <img src="assets/meal-planner-preview.svg" alt="Meal planner printable preview">
+    </section>
+
+    <p class="footer-note">Published as a public companion resource for The Daily Print Project.</p>
   </main>
 </body>
 </html>

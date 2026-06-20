@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#F5F8F4"/>
+  <g transform="translate(115 118)">
+    <path d="M120 0 L240 92 V250 H0 V92 Z" fill="#FFFFFF" stroke="#4A7FB5" stroke-width="3"/>
+    <path d="M120 0 L260 108" stroke="#C67B5C" stroke-width="18" stroke-linecap="round"/>
+    <path d="M120 0 L-20 108" stroke="#C67B5C" stroke-width="18" stroke-linecap="round"/>
+    <rect x="92" y="150" width="56" height="100" fill="#EEF4F8" stroke="#4A7FB5" stroke-width="3"/>
+    <rect x="34" y="112" width="50" height="48" fill="#FFF8EC" stroke="#D4A843" stroke-width="3"/>
+    <rect x="156" y="112" width="50" height="48" fill="#FFF8EC" stroke="#D4A843" stroke-width="3"/>
+  </g>
+  <g transform="translate(430 76)">
+    <rect width="250" height="300" rx="18" fill="#FFFFFF" stroke="#4A7FB5" stroke-width="3"/>
+    <rect x="28" y="30" width="194" height="58" rx="8" fill="#EEF4F8" stroke="#4A7FB5" stroke-width="2"/>
+    <text x="125" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#2F3A44">$2,724</text>
+    <line x1="34" y1="126" x2="216" y2="126" stroke="#D4A843" stroke-width="8" stroke-linecap="round"/>
+    <line x1="34" y1="164" x2="176" y2="164" stroke="#5B8C5A" stroke-width="8" stroke-linecap="round"/>
+    <line x1="34" y1="202" x2="144" y2="202" stroke="#C67B5C" stroke-width="8" stroke-linecap="round"/>
+    <line x1="34" y1="240" x2="198" y2="240" stroke="#4A7FB5" stroke-width="8" stroke-linecap="round" opacity="0.65"/>
+    <text x="42" y="282" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#4A7FB5">P&amp;I + tax + PMI</text>
+  </g>
+  <circle cx="365" cy="130" r="34" fill="#D4A843" opacity="0.18"/>
+  <text x="365" y="143" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#D4A843">$</text>
+  <text x="400" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#4A7FB5">Mortgage Calculator</text>
+</svg>

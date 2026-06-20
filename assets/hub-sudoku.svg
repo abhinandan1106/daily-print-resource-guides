@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#F5F5F5"/>
+  <!-- Sudoku grid -->
+  <g transform="translate(230, 60)">
+    <rect x="0" y="0" width="210" height="210" fill="white" stroke="#4A7FB5" stroke-width="3" rx="4"/>
+    <!-- Thick box lines -->
+    <line x1="70" y1="0" x2="70" y2="210" stroke="#4A7FB5" stroke-width="2.5"/>
+    <line x1="140" y1="0" x2="140" y2="210" stroke="#4A7FB5" stroke-width="2.5"/>
+    <line x1="0" y1="70" x2="210" y2="70" stroke="#4A7FB5" stroke-width="2.5"/>
+    <line x1="0" y1="140" x2="210" y2="140" stroke="#4A7FB5" stroke-width="2.5"/>
+    <!-- Numbers -->
+    <text x="35" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#333">5</text>
+    <text x="105" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#333">3</text>
+    <text x="175" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#4A7FB5" opacity="0.6">7</text>
+    <text x="35" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#333">6</text>
+    <text x="105" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#4A7FB5" opacity="0.6">9</text>
+    <text x="175" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#333">8</text>
+    <text x="35" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#4A7FB5" opacity="0.6">1</text>
+    <text x="105" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#333">4</text>
+    <text x="175" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#333">2</text>
+  </g>
+  <!-- Coffee cup -->
+  <g transform="translate(510, 120)">
+    <path d="M0,30 L0,100 Q0,120 20,120 L80,120 Q100,120 100,100 L100,30 Z" fill="white" stroke="#C67B5C" stroke-width="2"/>
+    <path d="M100,50 Q130,50 130,75 Q130,100 100,100" fill="none" stroke="#C67B5C" stroke-width="2"/>
+    <!-- Steam -->
+    <path d="M30,20 Q35,5 30,-5" fill="none" stroke="#888" stroke-width="1.5" opacity="0.4"/>
+    <path d="M50,25 Q55,8 50,-8" fill="none" stroke="#888" stroke-width="1.5" opacity="0.4"/>
+    <path d="M70,20 Q75,5 70,-5" fill="none" stroke="#888" stroke-width="1.5" opacity="0.4"/>
+    <!-- Coffee color -->
+    <rect x="5" y="50" width="90" height="65" fill="#C67B5C" opacity="0.2" rx="2"/>
+    <!-- Saucer -->
+    <ellipse cx="50" cy="125" rx="60" ry="10" fill="none" stroke="#C67B5C" stroke-width="1.5"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#4A7FB5" font-weight="bold">Sudoku</text>
+  <text x="400" y="388" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#888">Number puzzles for every skill level</text>
+</svg>

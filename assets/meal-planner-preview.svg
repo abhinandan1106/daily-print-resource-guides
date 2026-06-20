@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#FAF5F0"/>
+  <!-- Plate -->
+  <g transform="translate(250, 80)">
+    <ellipse cx="100" cy="120" rx="100" ry="95" fill="white" stroke="#C67B5C" stroke-width="2"/>
+    <ellipse cx="100" cy="120" rx="75" ry="70" fill="none" stroke="#C67B5C" stroke-width="1" opacity="0.4"/>
+    <!-- Food icons on plate -->
+    <circle cx="80" cy="100" r="18" fill="#5B8C5A" opacity="0.4"/>
+    <circle cx="115" cy="110" r="14" fill="#D4A843" opacity="0.4"/>
+    <circle cx="90" cy="135" r="12" fill="#C67B5C" opacity="0.3"/>
+  </g>
+  <!-- Fork -->
+  <g transform="translate(200, 100) rotate(-10)">
+    <rect x="0" y="60" width="6" height="120" fill="#888" rx="2"/>
+    <rect x="-4" y="0" width="4" height="50" fill="#888" rx="1"/>
+    <rect x="2" y="0" width="4" height="50" fill="#888" rx="1"/>
+    <rect x="8" y="0" width="4" height="50" fill="#888" rx="1"/>
+  </g>
+  <!-- Knife -->
+  <g transform="translate(470, 100) rotate(10)">
+    <rect x="0" y="60" width="6" height="120" fill="#888" rx="2"/>
+    <path d="M0,0 L6,0 L6,55 L0,55 Q-4,30 0,0" fill="#888" opacity="0.8"/>
+  </g>
+  <!-- Checklist -->
+  <g transform="translate(520, 100)">
+    <rect x="0" y="0" width="160" height="200" fill="white" stroke="#C67B5C" stroke-width="1.5" rx="6"/>
+    <text x="80" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#C67B5C" font-weight="bold">Meal Plan</text>
+    <line x1="15" y1="40" x2="145" y2="40" stroke="#C67B5C" stroke-width="0.5" opacity="0.5"/>
+    <!-- Checklist items -->
+    <rect x="15" y="55" width="14" height="14" fill="none" stroke="#5B8C5A" stroke-width="1.5" rx="2"/>
+    <path d="M18,62 L22,66 L26,58" stroke="#5B8C5A" stroke-width="2" fill="none"/>
+    <rect x="38" y="57" width="90" height="8" fill="#ddd" rx="3"/>
+    <rect x="15" y="85" width="14" height="14" fill="none" stroke="#5B8C5A" stroke-width="1.5" rx="2"/>
+    <path d="M18,92 L22,96 L26,88" stroke="#5B8C5A" stroke-width="2" fill="none"/>
+    <rect x="38" y="87" width="75" height="8" fill="#ddd" rx="3"/>
+    <rect x="15" y="115" width="14" height="14" fill="none" stroke="#D4A843" stroke-width="1.5" rx="2"/>
+    <rect x="38" y="117" width="85" height="8" fill="#ddd" rx="3"/>
+    <rect x="15" y="145" width="14" height="14" fill="none" stroke="#D4A843" stroke-width="1.5" rx="2"/>
+    <rect x="38" y="147" width="65" height="8" fill="#ddd" rx="3"/>
+    <rect x="15" y="175" width="14" height="14" fill="none" stroke="#D4A843" stroke-width="1.5" rx="2"/>
+    <rect x="38" y="177" width="80" height="8" fill="#ddd" rx="3"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#C67B5C" font-weight="bold">Meal Planner</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#888">Organize your weekly meals</text>
+</svg>

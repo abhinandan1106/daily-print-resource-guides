@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#F6F8F9"/>
+  <rect x="130" y="70" width="540" height="320" rx="18" fill="#FFFFFF" stroke="#4A7FB5" stroke-width="3"/>
+  <rect x="170" y="112" width="260" height="72" rx="8" fill="#EEF4F8" stroke="#4A7FB5" stroke-width="2"/>
+  <text x="300" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#2F3A44">25% of 80</text>
+  <g transform="translate(170 220)">
+    <rect width="88" height="54" rx="8" fill="#FFF7E8" stroke="#D4A843" stroke-width="2"/>
+    <rect x="112" width="88" height="54" rx="8" fill="#FFF7E8" stroke="#D4A843" stroke-width="2"/>
+    <rect x="224" width="88" height="54" rx="8" fill="#FFF7E8" stroke="#D4A843" stroke-width="2"/>
+    <rect y="76" width="88" height="54" rx="8" fill="#EEF4F8" stroke="#4A7FB5" stroke-width="2"/>
+    <rect x="112" y="76" width="88" height="54" rx="8" fill="#EEF4F8" stroke="#4A7FB5" stroke-width="2"/>
+    <rect x="224" y="76" width="88" height="54" rx="8" fill="#EEF4F8" stroke="#4A7FB5" stroke-width="2"/>
+    <text x="44" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2F3A44">%</text>
+    <text x="156" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2F3A44">x</text>
+    <text x="268" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2F3A44">=</text>
+    <text x="44" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2F3A44">20</text>
+    <text x="156" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2F3A44">80</text>
+    <text x="268" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2F3A44">20</text>
+  </g>
+  <circle cx="565" cy="180" r="74" fill="#5B8C5A" opacity="0.14"/>
+  <text x="565" y="206" text-anchor="middle" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#5B8C5A">%</text>
+  <text x="400" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#4A7FB5">Percentage Calculator</text>
+</svg>
