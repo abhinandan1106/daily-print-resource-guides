@@ -3,51 +3,155 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Printable Password Manager Template Guide</title>
-  <meta name="description" content="A practical guide to using a printable password manager template and password log for home account organization, recovery notes, and household planning.">
+  <title>Printable Password Manager Template PDF Guide</title>
+  <meta name="description" content="A visual guide to printable password manager template PDFs, password logs, account inventory sheets, recovery notes, password hints, and safer household storage.">
   <link rel="canonical" href="https://abhinandan1106.github.io/daily-print-resource-guides/password-manager-template/">
   <style>
-    body{font-family:Arial,sans-serif;line-height:1.65;margin:0;color:#182233;background:#f7f9fb}
-    main{max-width:850px;margin:0 auto;padding:48px 20px}
-    article{background:#fff;border:1px solid #dce4ed;border-radius:8px;padding:30px}
-    h1{font-size:34px;line-height:1.15;margin:0 0 16px}
-    h2{font-size:22px;margin-top:32px}
-    a{color:#0b63ce;font-weight:700}
-    ul,ol{padding-left:24px}
-    .note{background:#f1f6fd;border-left:4px solid #0b63ce;padding:12px 14px;margin:24px 0}
-    .resource-list{display:grid;gap:10px;margin:20px 0}
-    .resource-list a{display:block;border:1px solid #dce4ed;border-radius:6px;padding:11px 13px;background:#fbfdff;text-decoration:none}
-    .small{color:#526174;font-size:14px;margin-top:28px}
+    :root{--ink:#182233;--muted:#566579;--line:#d9e3ee;--paper:#fff;--soft:#f4f8fb;--navy:#17385f;--blue:#0b63ce;--gold:#d4a843;--green:#5b8c5a;--shadow:0 18px 50px rgba(18,32,51,.12)}
+    *{box-sizing:border-box}
+    body{font-family:Arial,sans-serif;line-height:1.65;margin:0;color:var(--ink);background:#f7f9fb}
+    a{color:var(--blue);font-weight:700}
+    .topbar{border-bottom:1px solid var(--line);background:#fff}
+    .topbar-inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-family:Georgia,serif;font-weight:700;color:var(--navy);text-decoration:none}
+    .topbar nav{display:flex;gap:14px;flex-wrap:wrap}
+    .topbar nav a{font-size:14px;color:var(--muted);text-decoration:none}
+    .hero{background:#17385f;color:#fff}
+    .hero-inner{max-width:1080px;margin:0 auto;padding:54px 20px 46px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:32px;align-items:center}
+    .eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:700;color:#d9e7f7;margin:0 0 12px}
+    h1{font-size:43px;line-height:1.08;margin:0 0 16px}
+    .hero p{font-size:18px;color:#e8f1fa;margin:0 0 24px;max-width:680px}
+    .button-row{display:flex;gap:12px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:6px;text-decoration:none;background:#fff;color:var(--navy)}
+    .button.secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
+    .preview{background:#fff;border-radius:8px;padding:22px;box-shadow:var(--shadow)}
+    .preview img{display:block;width:100%;height:auto}
+    main{max-width:1080px;margin:0 auto;padding:42px 20px 58px}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+    article,.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:26px;box-shadow:0 8px 28px rgba(18,32,51,.05)}
+    h2{font-size:25px;line-height:1.2;margin:0 0 14px}
+    h3{font-size:18px;line-height:1.25;margin:0 0 8px}
+    p{margin:0 0 18px}
+    ul,ol{padding-left:24px;margin:0 0 22px}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}
+    .card{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:16px}
+    .card strong{display:block;color:var(--navy);font-size:17px;margin-bottom:4px}
+    .resource-list{display:grid;gap:12px;margin-top:18px}
+    .resource-list a{display:block;border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:#fbfdff;text-decoration:none;color:var(--ink)}
+    .resource-list span{display:block;color:var(--muted);font-size:14px;font-weight:400;margin-top:3px}
+    .note{border-left:4px solid var(--gold);background:#fffaf0;padding:15px 16px;margin:22px 0;color:#4b3b12}
+    .small{color:var(--muted);font-size:14px;margin-top:24px}
+    footer{border-top:1px solid var(--line);background:#fff;color:var(--muted)}
+    footer div{max-width:1080px;margin:0 auto;padding:22px 20px;font-size:14px}
+    @media (max-width:800px){
+      .hero-inner,.grid,.cards{grid-template-columns:1fr}
+      h1{font-size:34px}
+      .topbar-inner{align-items:flex-start;flex-direction:column}
+    }
   </style>
 </head>
 <body>
-  <main>
-    <article>
-      <h1>Printable Password Manager Template Guide</h1>
-      <p>A printable password manager template can help a household keep account names, recovery notes, renewal reminders, and device details in one offline reference. It works best as an organization sheet, not as an unlocked place to expose every full password.</p>
-      <p>The Daily Print Project offers a clean <a href="https://www.thedailyprintproject.com/household/password-tracker">Printable Password Manager Template</a> for home paperwork, account review, and simple family planning.</p>
-      <div class="note">Keep any completed password log in a secure location. For sensitive financial or medical accounts, use a dedicated password manager app and treat the printable as an inventory or recovery checklist.</div>
-      <h2>When to use a printable password log</h2>
-      <p>An offline password log is useful when you need a backup list of account names, renewal dates, subscription notes, home service logins, device passcodes, and recovery contacts. It can also help during yearly paperwork reviews or when a caregiver needs to know which accounts exist.</p>
-      <h2>Quick setup checklist</h2>
-      <ol>
-        <li>Print the password manager template.</li>
-        <li>Group accounts by category: email, banking, utilities, subscriptions, devices, school, work, and home services.</li>
-        <li>Add recovery notes and safe hints where appropriate.</li>
-        <li>Store the completed page in a locked drawer, safe, or secure household file.</li>
-        <li>Review the page every few months and remove old accounts.</li>
-      </ol>
-      <h2>Related planning resources</h2>
-      <div class="resource-list">
-        <a href="https://www.thedailyprintproject.com/household/password-tracker">Printable Password Manager Template</a>
-        <a href="https://www.thedailyprintproject.com/planners/monthly-budget-planner">Monthly Budget Planner Printable</a>
-        <a href="https://www.thedailyprintproject.com/calculators/mortgage-calculator">Mortgage Calculator</a>
-        <a href="https://www.thedailyprintproject.com/calculators/calculator">Free Online Calculator</a>
-        <a href="https://www.thedailyprintproject.com/household/grocery-list">Printable Grocery List by Category</a>
-        <a href="https://www.thedailyprintproject.com/household/shopping-list">Printable Shopping List Template</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../">Daily Print Resource Guides</a>
+      <nav aria-label="Resource navigation">
+        <a href="../emergency-contact-list/">Emergency</a>
+        <a href="../everyday-calculators-household-lists/">Household</a>
+        <a href="../free-online-calculator/">Calculator</a>
+        <a href="../">All Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">Household account guide</p>
+        <h1>Printable Password Manager Template PDF</h1>
+        <p>A printable password manager template can help organize account names, usernames, password hints, recovery notes, subscriptions, and household login reminders offline.</p>
+        <div class="button-row">
+          <a class="button" href="https://www.thedailyprintproject.com/household/password-tracker">Open password manager template</a>
+          <a class="button secondary" href="https://www.thedailyprintproject.com/downloads/password-tracker-hint-template.pdf">Download password tracker PDF</a>
+        </div>
       </div>
-      <p class="small">This guide is a public companion resource for The Daily Print Project.</p>
-    </article>
+      <div class="preview" aria-label="Password template preview illustration">
+        <img src="../assets/hub-household.svg" alt="Printable password manager template preview">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="grid">
+      <article>
+        <h2>How to use a printable password log safely</h2>
+        <p>The Daily Print Project has a <a href="https://www.thedailyprintproject.com/household/password-tracker">printable password manager template PDF</a> for account names, usernames, password hints, and recovery notes. It works best as an offline account inventory and household reference sheet.</p>
+        <p>A printed password log is not the same as encrypted password manager software. Use hints instead of full passwords when possible, avoid exposing sensitive financial or medical passwords in plain text, and keep the finished page in a locked drawer, safe, or secure household file.</p>
+
+        <div class="cards" aria-label="Password template uses">
+          <div class="card">
+            <strong>Account inventory</strong>
+            Track which accounts exist, where they are used, and who manages them.
+          </div>
+          <div class="card">
+            <strong>Password hints</strong>
+            Write reminders that make sense to you without exposing full passwords.
+          </div>
+          <div class="card">
+            <strong>Recovery notes</strong>
+            Add recovery emails, phone notes, backup codes location, or renewal reminders.
+          </div>
+          <div class="card">
+            <strong>Household backup</strong>
+            Keep private reference details available for trusted family paperwork planning.
+          </div>
+        </div>
+
+        <h2>Setup checklist</h2>
+        <ol>
+          <li>Download and print a blank password manager template PDF.</li>
+          <li>List account names, usernames, hints, and recovery notes.</li>
+          <li>Group accounts by email, utilities, subscriptions, banking, shopping, devices, and home services.</li>
+          <li>Avoid writing full sensitive passwords unless the page will be stored securely.</li>
+          <li>Review the account log every few months and remove old accounts.</li>
+        </ol>
+
+        <div class="note">
+          Treat a completed password tracker like private paperwork. It should not sit in an open drawer or on a desk where guests or workers can see it.
+        </div>
+
+        <h2>Related household resources</h2>
+        <div class="resource-list">
+          <a href="https://www.thedailyprintproject.com/household/password-tracker">Printable password manager template PDF<span>Main printable password tracker page.</span></a>
+          <a href="https://www.thedailyprintproject.com/downloads/password-tracker-hint-template.pdf">Download password tracker PDF<span>Direct printable PDF for account names, hints, and notes.</span></a>
+          <a href="https://www.thedailyprintproject.com/household/emergency-contacts">Printable emergency contact list<span>Keep important household contacts near private reference paperwork.</span></a>
+          <a href="https://www.thedailyprintproject.com/planners/monthly-budget-planner">Monthly budget planner printable<span>Track subscription and bill-related accounts.</span></a>
+          <a href="https://www.thedailyprintproject.com/household/medication-log">Printable medication log<span>Another private household reference template.</span></a>
+          <a href="https://www.thedailyprintproject.com/planners/daily-to-do-list">Printable daily to-do list<span>Schedule periodic account review reminders.</span></a>
+        </div>
+      </article>
+
+      <aside class="panel">
+        <h2>Good private storage places</h2>
+        <ul>
+          <li>Locked drawer.</li>
+          <li>Home safe.</li>
+          <li>Secure household binder.</li>
+          <li>Private file cabinet.</li>
+          <li>Trusted estate-planning folder.</li>
+        </ul>
+
+        <h2>Calculator and list helpers</h2>
+        <div class="resource-list">
+          <a href="https://www.thedailyprintproject.com/calculators/calculator">Free online calculator<span>Useful for checking subscription totals.</span></a>
+          <a href="https://www.thedailyprintproject.com/household/shopping-list">Printable shopping list<span>General household checklist page.</span></a>
+        </div>
+        <p class="small">This guide is a public companion resource for The Daily Print Project.</p>
+      </aside>
+    </div>
   </main>
+
+  <footer>
+    <div>Daily Print Resource Guides - independent resource pages for useful printables and calculators.</div>
+  </footer>
 </body>
 </html>
