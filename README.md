@@ -7,6 +7,16 @@ Public companion resource guides for The Daily Print Project printables, calcula
 - [Daily Print Resource Guides](https://abhinandan1106.github.io/daily-print-resource-guides/)
 - [External Daily Print resource mentions](https://abhinandan1106.github.io/daily-print-resource-guides/external-resource-links/)
 
+## Current Search Traction Pages
+
+- [2026 printable calendar](https://www.thedailyprintproject.com/calendars/2026-yearly)
+- [medium sudoku puzzles printable](https://www.thedailyprintproject.com/puzzles/sudoku-medium)
+- [free printable daily crossword puzzle](https://www.thedailyprintproject.com/puzzles/daily-crossword)
+- [large print sudoku puzzles printable](https://www.thedailyprintproject.com/puzzles/sudoku-large-print)
+- [mortgage calculator with taxes and insurance](https://www.thedailyprintproject.com/calculators/mortgage-calculator)
+- [free printable grocery list PDF](https://www.thedailyprintproject.com/household/grocery-list)
+- [free printable shopping list template](https://www.thedailyprintproject.com/household/shopping-list)
+
 ## Daily Print Project Tools
 
 - [daily sudoku printable](https://www.thedailyprintproject.com/puzzles/sudoku)
