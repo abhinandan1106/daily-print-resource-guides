@@ -9,8 +9,8 @@ Public companion resource guides for The Daily Print Project printables, calcula
 
 ## Current Search Traction Pages
 
-- [2026 printable calendar](https://www.thedailyprintproject.com/calendars/2026-yearly)
-- [medium sudoku puzzles printable](https://www.thedailyprintproject.com/puzzles/sudoku-medium)
+- [2026 calendar printable](https://www.thedailyprintproject.com/calendars/2026-yearly)
+- [sudoku medium printable puzzle](https://www.thedailyprintproject.com/puzzles/sudoku-medium)
 - [free printable daily crossword puzzle](https://www.thedailyprintproject.com/puzzles/daily-crossword)
 - [large print sudoku puzzles printable](https://www.thedailyprintproject.com/puzzles/sudoku-large-print)
 - [mortgage calculator with taxes and insurance](https://www.thedailyprintproject.com/calculators/mortgage-calculator)
@@ -68,6 +68,10 @@ Public companion resource guides for The Daily Print Project printables, calcula
 - [2026 Calendar Yearly Printable](https://abhinandan1106.github.io/daily-print-resource-guides/2026-calendar-yearly-printable/)
 - [Grocery List Shopping List Printable](https://abhinandan1106.github.io/daily-print-resource-guides/grocery-list-shopping-list-printable/)
 - [What Is On My Shopping List Printable](https://abhinandan1106.github.io/daily-print-resource-guides/whats-on-my-shopping-list-printable/)
+- [January 2026 Calendar Printable](https://abhinandan1106.github.io/daily-print-resource-guides/january-2026-calendar-printable/)
+- [February 2026 Calendar Printable](https://abhinandan1106.github.io/daily-print-resource-guides/february-2026-calendar-printable/)
+- [March 2026 Calendar Printable](https://abhinandan1106.github.io/daily-print-resource-guides/march-2026-calendar-printable/)
+- [May 2026 Calendar Printable](https://abhinandan1106.github.io/daily-print-resource-guides/may-2026-calendar-printable/)
 - [Sudoku Puzzles Medium Printable support host](https://sudoku-puzzles-medium-printable-20260717.surge.sh/)
 - [Sudoku Medium Level Printable support host](https://sudoku-medium-level-printable-20260717.surge.sh/)
 - [Medium Sudoku Puzzles Daily Practice support host](https://medium-sudoku-puzzles-daily-practice-20260717.surge.sh/)
