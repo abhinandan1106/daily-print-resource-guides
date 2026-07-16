@@ -44,3 +44,33 @@ Public companion resource guides for The Daily Print Project printables, calcula
 - [free online calculator for basic math](https://free-online-calculator-basic-math-20260716.surge.sh/)
 - [percentage and discount calculator for shopping tax](https://percentage-discount-calculator-shopping-tax-20260716.surge.sh/)
 - [meal planner and grocery list printable](https://meal-planner-grocery-list-printable-20260716.surge.sh/)
+
+<!-- 2026-07-17 sprint readme start -->
+## July 17 Exact Query Sprint Pages
+
+- [Sudoku Puzzles Medium Printable](https://abhinandan1106.github.io/daily-print-resource-guides/sudoku-puzzles-medium-printable/)
+- [Sudoku Medium Level Printable](https://abhinandan1106.github.io/daily-print-resource-guides/sudoku-medium-level-printable/)
+- [Medium Sudoku Puzzles Daily Practice](https://abhinandan1106.github.io/daily-print-resource-guides/medium-sudoku-puzzles-daily-practice/)
+- [Large Print Sudoku Puzzles Printable Free](https://abhinandan1106.github.io/daily-print-resource-guides/large-print-sudoku-puzzles-printable-free/)
+- [Free Daily Printable Crossword Puzzles](https://abhinandan1106.github.io/daily-print-resource-guides/free-daily-printable-crossword-puzzles/)
+- [Percentage Calculator Discount Tax Shopping](https://abhinandan1106.github.io/daily-print-resource-guides/percentage-calculator-discount-tax-shopping/)
+- [Mortgage Calculator Taxes Insurance Monthly Payment](https://abhinandan1106.github.io/daily-print-resource-guides/mortgage-calculator-taxes-insurance-monthly-payment/)
+- [2026 Calendar Yearly Printable](https://abhinandan1106.github.io/daily-print-resource-guides/2026-calendar-yearly-printable/)
+- [Grocery List Shopping List Printable](https://abhinandan1106.github.io/daily-print-resource-guides/grocery-list-shopping-list-printable/)
+- [What Is On My Shopping List Printable](https://abhinandan1106.github.io/daily-print-resource-guides/whats-on-my-shopping-list-printable/)
+- [Sudoku Puzzles Medium Printable support host](https://sudoku-puzzles-medium-printable-20260717.surge.sh/)
+- [Sudoku Medium Level Printable support host](https://sudoku-medium-level-printable-20260717.surge.sh/)
+- [Medium Sudoku Puzzles Daily Practice support host](https://medium-sudoku-puzzles-daily-practice-20260717.surge.sh/)
+- [Large Print Sudoku Puzzles Printable Free support host](https://large-print-sudoku-puzzles-printable-free-20260717.surge.sh/)
+- [Free Daily Printable Crossword Puzzles support host](https://free-daily-printable-crossword-puzzles-20260717.surge.sh/)
+- [Percentage Calculator Discount Tax Shopping support host](https://percentage-calculator-discount-tax-shopping-20260717.surge.sh/)
+- [Mortgage Calculator Taxes Insurance Monthly Payment support host](https://mortgage-calculator-taxes-insurance-monthly-payment-20260717.surge.sh/)
+- [2026 Calendar Yearly Printable support host](https://2026-calendar-yearly-printable-20260717.surge.sh/)
+- [Grocery List Shopping List Printable support host](https://grocery-list-shopping-list-printable-20260717.surge.sh/)
+- [What Is On My Shopping List Printable support host](https://whats-on-my-shopping-list-printable-20260717.surge.sh/)
+- [Sudoku puzzles medium printable and medium sudoku level](https://telegra.ph/Sudoku-puzzles-medium-printable-and-medium-sudoku-level-07-16)
+- [2026 calendar printable yearly calendar pages](https://telegra.ph/2026-calendar-printable-yearly-calendar-pages-07-16)
+- [Percentage calculator discount calculator and shopping tax](https://telegra.ph/Percentage-calculator-discount-calculator-and-shopping-tax-07-16)
+- [Mortgage calculator taxes insurance monthly payment](https://telegra.ph/Mortgage-calculator-taxes-insurance-monthly-payment-07-16)
+- [Grocery list shopping list and what is on my shopping list](https://telegra.ph/Grocery-list-shopping-list-and-what-is-on-my-shopping-list-07-16)
+<!-- 2026-07-17 sprint readme end -->
