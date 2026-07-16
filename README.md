@@ -87,4 +87,5 @@ Public companion resource guides for The Daily Print Project printables, calcula
 - [Percentage calculator discount calculator and shopping tax](https://telegra.ph/Percentage-calculator-discount-calculator-and-shopping-tax-07-16)
 - [Mortgage calculator taxes insurance monthly payment](https://telegra.ph/Mortgage-calculator-taxes-insurance-monthly-payment-07-16)
 - [Grocery list shopping list and what is on my shopping list](https://telegra.ph/Grocery-list-shopping-list-and-what-is-on-my-shopping-list-07-16)
+- [Daily Print Project Resource Map](https://daily-print-resource-map.avilovesnature.chatgpt.site)
 <!-- 2026-07-17 sprint readme end -->
