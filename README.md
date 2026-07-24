@@ -93,6 +93,7 @@ Public companion resource guides for The Daily Print Project printables, calcula
 <!-- 2026-07-24 gsc sprint readme start -->
 ## July 24 GSC Opportunity Support Pages
 
+- [Medium: 2026 Calendar Printable, Sudoku Puzzles Medium and Large Print Word Search Links](https://medium.com/@ellanbean/2026-calendar-printable-sudoku-puzzles-medium-and-large-print-word-search-links-aeeeff779c2e)
 - [Tumblr: 2026 Calendar Printable, Sudoku Puzzles Medium and Large Print Word Search Links](https://www.tumblr.com/dailyprintresources2026/823007729878761472/2026-calendar-printable-sudoku-puzzles-medium-and)
 - [WordPress.com: 2026 Calendar Printable, Sudoku Puzzles Medium and Calculator Resource Links](https://dailyprintresources2026.wordpress.com/2026/07/24/2026-calendar-printable-sudoku-puzzles-medium-and-calculator-resource-links/)
 - [Blogger: 2026 Calendar Printable, Sudoku Puzzles Medium, Word Search and Calculator Links](https://thedailyprintprojectresources.blogspot.com/2026/07/2026-calendar-printable-sudoku-puzzles.html)
