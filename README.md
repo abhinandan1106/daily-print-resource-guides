@@ -10,7 +10,7 @@ Public companion resource guides for The Daily Print Project printables, calcula
 ## Current Search Traction Pages
 
 - [2026 calendar printable](https://www.thedailyprintproject.com/calendars/2026-yearly)
-- [sudoku medium printable puzzle](https://www.thedailyprintproject.com/puzzles/sudoku-medium)
+- [sudoku puzzles medium printable](https://www.thedailyprintproject.com/puzzles/sudoku-medium)
 - [free printable daily crossword puzzle](https://www.thedailyprintproject.com/puzzles/daily-crossword)
 - [large print sudoku puzzles printable](https://www.thedailyprintproject.com/puzzles/sudoku-large-print)
 - [mortgage calculator with taxes and insurance](https://www.thedailyprintproject.com/calculators/mortgage-calculator)
@@ -89,3 +89,15 @@ Public companion resource guides for The Daily Print Project printables, calcula
 - [Grocery list shopping list and what is on my shopping list](https://telegra.ph/Grocery-list-shopping-list-and-what-is-on-my-shopping-list-07-16)
 - [Daily Print Project Resource Map](https://daily-print-resource-map.avilovesnature.chatgpt.site)
 <!-- 2026-07-17 sprint readme end -->
+
+<!-- 2026-07-24 gsc sprint readme start -->
+## July 24 GSC Opportunity Support Pages
+
+- [2026 Calendar Printable Free Guide](https://abhinandan1106.github.io/daily-print-resource-guides/2026-calendar-printable-free/)
+- [Sudoku Puzzles Medium Difficulty Printable Guide](https://abhinandan1106.github.io/daily-print-resource-guides/sudoku-puzzles-medium-difficulty/)
+- [Large Print Word Search Puzzles Printable Guide](https://abhinandan1106.github.io/daily-print-resource-guides/large-print-word-search-puzzles-printable/)
+- [Free Online Calculator Basic Math Guide](https://abhinandan1106.github.io/daily-print-resource-guides/free-online-calculator-basic/)
+- [Discount Calculator With Tax Guide](https://abhinandan1106.github.io/daily-print-resource-guides/discount-calculator-with-tax/)
+- [Mortgage Calculator With Taxes and Insurance Guide](https://abhinandan1106.github.io/daily-print-resource-guides/mortgage-calculator-with-taxes-and-insurance/)
+- [Grocery and Shopping List Template Printable Guide](https://abhinandan1106.github.io/daily-print-resource-guides/grocery-shopping-list-template-printable/)
+<!-- 2026-07-24 gsc sprint readme end -->
